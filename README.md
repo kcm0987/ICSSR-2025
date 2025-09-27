@@ -39,4 +39,14 @@ This research introduces *SpamSpotterElite*, a spam classification system utiliz
 ---
 
 ## Repository Structure
-
+SpamSpotterElite/
+├── data/
+│ └── spam.csv # SMS Spam dataset
+├── notebooks/
+│ └── spamspotterelite_nb.ipynb # Main notebook using MultinomialNB
+├── models/
+│ └── nb_model.pkl # Trained MultinomialNB model
+├── results/
+│ └── evaluation.txt # Evaluation metrics report
+├── requirements.txt # Dependencies
+└── README.md # Project documentation
